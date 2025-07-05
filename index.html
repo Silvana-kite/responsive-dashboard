@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wise | Admin Dashboard</title>
+    <!-- Unicons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Nobile Button -->
+    <input type="checkbox" class="mobile-btn" id="mobile-btn" />
+    <label for="mobile-btn" class="mobile-label">
+      <div class="label-icons flex">
+        <i class="uil uil-bars"></i>
+        <i class="uil uil-times"></i>
+      </div>
+    </label>
+    <!-- End Nobile Button -->
+
+
+    <!-- Dashboard -->
+    <div class="dashboard">
+      <!-- Sildebar -->
+      <div class="sidebar flex-c">
+        <!-- brand -->
+        <div class="brand flex">
+          <i class="uil uil-airplay"></i>
+          <p>Wise</p>
+        </div>
+
+        <!-- User -->
+        <div class="user flex-c">
+          <img src="./img/user.jpg" alt="User" />
+          <p class="name">Silvana</p>
+          <a href="#" class="edit-btn">Edit</a>
+        </div>
+
+        <!-- Side Menu -->
+        <div class="side-menu flex-c flex-sb">
+          <!-- Menu Items -->
+          <div class="menu-items flex-c">
+            <div class="item flex active">
+              <i class="uil uil-apps"></i>
+              <p>Dashboard</p>
+            </div>
+
+            <div class="item flex">
+              <i class="uil uil-file-landscape"></i>
+              <p>Activity</p>
+            </div>
+
+            <div class="item flex">
+              <i class="uil uil-schedule"></i>
+              <p>Schedule</p>
+            </div>
+
+            <div class="item flex">
+              <i class="uil uil-slider-h"></i>
+              <p>Settings</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Change Theme -->
+        <div class="theme flex flex-sb">
+          <p class="light">light</p>
+          <div class="theme-btn flex w-100">
+            <i class="uil uil-sun light-btn"></i>
+            <i class="uil uil-moon dark-btn"></i>
+          </div>
+          <p class="dark">Dark</p>
+        </div>
+      </div>
+      <!--End Sildebar -->
+
+      <!-- Main -->
+      <div class="main-content">
+        <!-- Top Bar -->
+        <div class="topbar flex flex-sb">
+          <h2>Statistics</h2>
+
+          <div class="bar flex flex-sb">
+            <input type="text" class="search" placeholder="search something" />
+
+            <a href="#" class="btn">Upgrade</a>
+            <div class="notification flex">
+              <i class="uil uil-bell"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content Data -->
+        <div class="content-data">
+          <div class="box web-traffic">
+            <div class="flex flex-sb">
+              <h4>Website Traffic</h4>
+              <p>More</p>
+            </div>
+
+            <div class="progress flex">12k</div>
+
+            <div class="traffic-data flex flex-sb">
+              <div class="source flex">
+                <div class="check social"></div>
+                <p>Social Media</p>
+              </div>
+              <p>75%</p>
+            </div>
+
+            <div class="traffic-data flex flex-sb">
+              <div class="source flex">
+                <div class="check organic"></div>
+                <p>Organic Search</p>
+              </div>
+              <p>25%</p>
+            </div>
+          </div>
+
+          <!-- Report -->
+          <div class="box report flex-c flex-sb">
+            <div class="flex flex-sb w-100">
+              <div class="report-btn">Full Report</div>
+              <p>/ 2025</p>
+            </div>
+
+            <div class="report-btn download flex">
+              <p>Download Report</p>
+              <i class="uil uil-file-download"></i>
+            </div>
+          </div>
+          <!-- End Report -->
+
+          <!-- Bounce Rate -->
+          <div class="box bounce-rate flex-c flex-sb">
+            <div class="flex flex-sb w-100">
+              <h4>Bounce Rate</h4>
+
+              <div class="open flex">
+                <i class="uil uil-arrow-up-right"></i>
+              </div>
+            </div>
+
+            <div class="calendar flex flex-sb">
+              <div class="day flex-c checked">
+                <p>Sat</p>
+                <p>5</p>
+              </div>
+
+              <div class="day flex-c">
+                <p>Sun</p>
+                <p>6</p>
+              </div>
+
+              <div class="day flex-c">
+                <p>Mon</p>
+                <p>7</p>
+              </div>
+            </div>
+
+            <div class="flex flex-sb w-100 bounce-history">
+              <h4 class="rate">24%</h4>
+
+              <div class="border"></div>
+
+              <div class="cut">
+                <p>-10%</p>
+                <p>Since last day</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Bounce Rate -->
+
+          <!--   -->
+          <div class="box roi flex-c flex-sb">
+            <div class="flex flex-sb w-100">
+              <div class="title flex">
+                <div class="roi-logo">
+                  <i class="uil uil-analytics"></i>
+                </div>
+                <h4>ROI</h4>
+              </div>
+
+              <p>Detail</p>
+            </div>
+
+            <div class="roi-date w-100">
+              <h2>243%</h2>
+              <h4>Return On Investment</h4>
+            </div>
+
+            <div class="roi-graph w-100">
+              <img src="img/roi-graph.png" alt="ROI Graph" />
+            </div>
+          </div>
+          <!-- End ROI -->
+
+          <!-- Web Scoring -->
+          <div class="box web-scoring flex">
+            <div class="btn scoring-btn">Web Score With AI</div>
+          </div>
+          <!-- End Web Scoring -->
+
+          <!-- Customer Churn Rate -->
+          <div class="box ccr flex-c flex-sb">
+            <h2 class="w-100">Customer Churn Rate</h2>
+
+            <div class="ccr-graph w-100">
+              <svg
+                height="auto"
+                viewBox="0 0 332 250"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                class="svg-graph"
+                  d="M0 250h66.4v-77.281q0-4-4-4H4q-4 0-4 4ZM83 250h66.4V60.443q0-4-4-4H87q-4 0-4 4ZM166 250h66.4V31.558q0-4-4-4H170q-4 0-4 4ZM249 250h66.4V126.94q0-4-4-4H253q-4 0-4 4Z"
+                  fill="#444cf7"
+                />
+              </svg>
+            </div>
+          </div>
+          <!-- End Customer Churn Rate -->
+        </div>
+        <!-- End Content Data -->
+      </div>
+      <!-- End Main -->
+    </div>
+    <!-- End Dashboard -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
